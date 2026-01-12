@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Saira", sans-serif;
+  font-weight: 500;
+  background-color: #222222;
+}
+/* Nav Bar Styles */
+
+nav {
+  font-size: 18px;
+  background-color: #141414;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+}
+nav a {
+  text-decoration: none;
+  color: #fafafa;
+  display: inline-block;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+nav img {
+  width: 150px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+nav img:hover {
+  transform: scale(1.2);
+  filter: drop-shadow(0 0 8px #00afec);
+}
+.nav-links {
+  display: flex;
+}
+.nav-links li {
+  list-style: none;
+  align-items: center;
+  margin: 0 15px;
+}
+/* Navbar and Links Effects */
+.logo {
+  cursor: pointer;
+}
+.nav-links a:hover {
+  color: #00afec;
+  text-shadow: 0 0 6px #00afec;
+  transform: scale(1.2);
+}
+.nav-links a:active {
+  color: #007bb5;
+}
