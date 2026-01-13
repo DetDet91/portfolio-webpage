@@ -8,7 +8,18 @@
 body {
   font-family: "Saira", sans-serif;
   font-weight: 500;
-  background-color: #222222;
+  background-color: #111;
+  background-image: url("/assets/Images/5302920.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.page-wrapper {
+  min-height: 100vh;
+  height: auto;
+
+  padding-top: 150px;
 }
 /* Nav Bar Styles */
 
@@ -19,6 +30,10 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 20px 60px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
 nav a {
   text-decoration: none;
@@ -54,4 +69,30 @@ nav img:hover {
 }
 .nav-links a:active {
   color: #007bb5;
+}
+
+/* H1 & P index Styles */
+h1 {
+  color: #fafafa;
+  text-align: center;
+  margin-top: 0px;
+  font-size: 48px;
+  text-shadow: 0 0 10px #00afec;
+}
+.welcome {
+  color: #fafafa;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 35px;
+  text-shadow: 0 0 10px #00afec;
+}
+
+.Intro {
+  color: #fafafa;
+  text-align: left;
+  width: 380px;
+  padding-bottom: 20px;
+  margin: 40px 150px;
+  font-size: 30px;
+  text-shadow: 0 0 8px #00afec;
 }
