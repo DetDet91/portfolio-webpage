@@ -96,3 +96,21 @@ h1 {
   font-size: 30px;
   text-shadow: 0 0 8px #00afec;
 }
+
+.profile-picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50px;
+  padding-top: 20px;
+}
+
+.profile-picture img {
+  width: 70%;
+  height: 80%;
+  border-radius: 25%;
+  box-shadow: 0 0 15px #00afec;
+}
+.divder {
+  display: flex;
+}
