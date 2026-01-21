@@ -1,0 +1,67 @@
+p {
+  color: #fafafa;
+  text-align: center;
+  margin-top: 0px;
+  font-size: 30px;
+  text-shadow: 0 0 10px #00afec;
+  margin-bottom: 40px;
+}
+main {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 60px;
+}
+
+/* Style the icon links */
+main section a {
+  font-size: 100px;
+  color: #fafafa;
+  transition: transform 0.3s ease, color 0.3s ease, filter 0.3s ease;
+  padding: 18px;
+  border-radius: 50%;
+  background-color: rgba(0, 175, 236, 0.12);
+}
+
+/* Hover glow + grow */
+main section a:hover {
+  background-color: rgba(0, 175, 236, 0.3);
+  color: #00afec;
+  transform: scale(1.2);
+  filter: drop-shadow(0 0 12px #00afec);
+}
+
+/* Stack icon and label vertically */
+main section a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  font-size: 64px;
+  color: #fafafa;
+  padding: 18px;
+  border-radius: 50%;
+  background-color: rgba(0, 175, 236, 0.12);
+  transition: all 0.3s ease;
+}
+
+/* Label text */
+main section a span {
+  font-size: 16px;
+  margin-top: 8px;
+  color: #fafafa;
+  text-shadow: 0 0 6px #00afec;
+}
+
+/* Hover effect */
+main section a:hover {
+  background-color: rgba(0, 175, 236, 0.3);
+  color: #00afec;
+  transform: scale(1.2);
+  filter: drop-shadow(0 0 12px #00afec);
+}
+
+/* Make label glow on hover too */
+main section a:hover span {
+  color: #00afec;
+}
