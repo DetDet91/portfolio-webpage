@@ -5,6 +5,20 @@ h1 {
   font-size: 48px;
   text-shadow: 0 0 10px #00afec;
 }
+h2 {
+  color: #fafafa;
+  text-align: center;
+  margin-top: 0px;
+  font-size: 30px;
+  text-shadow: 0 0 10px #00afec;
+}
+p {
+  color: #fafafa;
+  text-align: center;
+  margin-top: 0px;
+  font-size: 20px;
+  text-shadow: 0 0 10px #00afec;
+}
 .project-intro {
   color: #fafafa;
   text-align: center;
@@ -15,7 +29,6 @@ h1 {
 
 /*laptop and projects section styles*/
 .project-grid {
-  text-align: center;
   z-index: 1;
 }
 
@@ -24,7 +37,7 @@ h1 {
   z-index: 1;
   max-width: 500px;
   width: 100%;
-  margin: 0 auto 1.5rem;
+  margin: 0;
 }
 .project-grid .mock-laptop > img {
   width: 100%;
@@ -43,4 +56,41 @@ h1 {
   height: 100%;
   object-fit: cover;
   display: block;
+}
+
+.project-grid .meet-landing,
+.project-grid .newsletter,
+.project-grid .recipe,
+.project-grid .portfolio-webpage {
+  display: flex;
+  align-items: flex-start;
+  gap: 50px;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+.project-grid .project-info {
+  max-width: 400px;
+  text-align: center;
+  margin-top: 75px;
+}
+
+.view {
+  text-decoration: none;
+  background-color: #007bb5;
+  color: #fafafa;
+  display: inline-block;
+  padding: 8px 15px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  margin-right: 10px;
+  font-weight: 500;
+}
+
+.view:hover {
+  background-color: #00afec;
+  transform: scale(1.05);
+  text-shadow: 0 0 5px #00afec;
 }
