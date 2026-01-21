@@ -42,3 +42,55 @@ li:hover {
   transition: color 0.3s ease, transform 0.3s ease;
   transform: scale(1.2);
 }
+
+/* Tablet (iPads, small laptops) */
+@media (max-width: 1024px) {
+  .get-to-know {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 22px;
+    margin: 30px 50px; /* less side margin */
+    padding-bottom: 15px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  ul.skills-list {
+    width: 250px;
+    font-size: 20px;
+    margin: 20px auto;
+  }
+}
+
+/* Mobile (phones) */
+@media (max-width: 768px) {
+  .get-to-know {
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 18px;
+    margin: 20px 20px; /* small margins for small screens */
+    padding-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  ul.skills-list {
+    width: 200px;
+    font-size: 18px;
+    margin: 15px auto;
+  }
+
+  li:hover {
+    transform: scale(
+      1.1
+    ); /* smaller scale on phones so it doesn’t break layout */
+  }
+}

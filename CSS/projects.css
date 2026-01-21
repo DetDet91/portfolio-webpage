@@ -94,3 +94,82 @@ p {
   transform: scale(1.05);
   text-shadow: 0 0 5px #00afec;
 }
+
+/* ===== Tablet (iPads, small laptops) ===== */
+@media (max-width: 1024px) {
+  .project-grid .meet-landing,
+  .project-grid .newsletter,
+  .project-grid .recipe,
+  .project-grid .portfolio-webpage {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .project-grid .mock-laptop {
+    max-width: 400px;
+  }
+
+  .project-grid .project-info {
+    max-width: 350px;
+    margin-top: 40px;
+  }
+
+  .project-intro {
+    font-size: 28px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
+
+/* ===== Mobile (phones) ===== */
+@media (max-width: 768px) {
+  .project-grid .meet-landing,
+  .project-grid .newsletter,
+  .project-grid .recipe,
+  .project-grid .portfolio-webpage {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .project-grid .mock-laptop {
+    max-width: 300px;
+  }
+
+  .project-grid .project-info {
+    max-width: 90%;
+    margin-top: 30px;
+  }
+
+  .project-intro {
+    font-size: 24px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .view {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+}

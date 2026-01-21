@@ -65,3 +65,52 @@ main section a:hover {
 main section a:hover span {
   color: #00afec;
 }
+
+/* ===== Tablet (iPads, small laptops) ===== */
+@media (max-width: 1024px) {
+  main {
+    flex-wrap: wrap; /* lets the icons wrap if needed */
+    gap: 30px;
+    margin-top: 40px;
+  }
+
+  main section a {
+    font-size: 48px; /* slightly smaller icons */
+    padding: 15px;
+  }
+
+  main section a span {
+    font-size: 14px; /* smaller label text */
+  }
+}
+
+/* ===== Mobile (phones) ===== */
+@media (max-width: 768px) {
+  main {
+    flex-direction: column; /* stack the sections vertically */
+    align-items: center;
+    gap: 25px;
+    margin-top: 30px;
+  }
+
+  main section a {
+    font-size: 60px; /* moderate size for small screens */
+    padding: 18px;
+    width: 120px; /* fixed width for circle background */
+    height: 120px; /* fixed height */
+  }
+
+  main section a span {
+    font-size: 16px;
+  }
+
+  header p {
+    font-size: 20px;
+    margin: 20px auto;
+    width: 90%;
+  }
+
+  header h1 {
+    font-size: 32px;
+  }
+}

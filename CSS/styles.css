@@ -115,3 +115,99 @@ h1 {
 .divder {
   display: flex;
 }
+/* Hamburger button */
+.hamburger {
+  display: none;
+  font-size: 32px;
+  color: #fafafa;
+  cursor: pointer;
+}
+
+/* Mobile nav behavior */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    background-color: #141414;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    display: none;
+    padding: 20px 0;
+  }
+
+  .nav-links li {
+    margin: 15px 0;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+}
+
+/*Responsive design for mobile/tablets*/
+/* ===== Tablet (iPads, small laptops) ===== */
+@media (max-width: 1024px) {
+  nav {
+    padding: 15px 30px;
+  }
+
+  .Intro {
+    width: 80%;
+    margin: 40px auto;
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .profile-picture img {
+    width: 60%;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  .welcome {
+    font-size: 30px;
+  }
+}
+
+/* ===== Mobile (phones) ===== */
+@media (max-width: 768px) {
+  nav {
+    padding: 15px 20px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  .welcome {
+    font-size: 24px;
+  }
+
+  .Intro {
+    width: 90%;
+    margin: 30px auto;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .profile-picture img {
+    width: 80%;
+  }
+
+  .page-wrapper {
+    padding-top: 120px;
+  }
+  .divder {
+    flex-direction: column;
+    align-items: center; /* centers the text + image */
+    gap: 20px; /* adds space between them */
+  }
+}
