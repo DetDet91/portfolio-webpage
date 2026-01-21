@@ -1,0 +1,45 @@
+h1 {
+  color: #fafafa;
+  text-align: center;
+  margin-top: 0px;
+  font-size: 48px;
+  text-shadow: 0 0 10px #00afec;
+}
+.project-intro {
+  color: #fafafa;
+  text-align: center;
+  margin-top: 0px;
+  font-size: 35px;
+  text-shadow: 0 0 10px #00afec;
+}
+
+/*laptop and projects section styles*/
+.project-grid {
+  text-align: center;
+  z-index: 1;
+}
+
+.project-grid .mock-laptop {
+  position: relative;
+  z-index: 1;
+  max-width: 320px;
+  margin: 0 auto 1.5rem;
+}
+.project-grid .mock-laptop > img {
+  width: 100%;
+  display: block;
+}
+.project-grid .laptop-screen {
+  position: absolute;
+  top: 5%;
+  height: 53.5%;
+  border-radius: 2px;
+  overflow: hidden;
+}
+.project-grid .laptop-screen img {
+  margin-top: -1px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}

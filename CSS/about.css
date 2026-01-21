@@ -1,0 +1,44 @@
+.get-to-know {
+  color: #fafafa;
+  text-align: center;
+  margin-top: 0px;
+  font-size: 48px;
+  text-shadow: 0 0 8px #39ff14;
+}
+
+p {
+  color: #fafafa;
+  text-align: center;
+  width: auto;
+  padding-bottom: 20px;
+  margin: 40px 150px;
+  font-size: 24px;
+  text-shadow: 0 0 8px #00afec;
+}
+
+h2 {
+  color: #fafafa;
+  text-align: center;
+  margin-top: 0px;
+  font-size: 48px;
+  text-shadow: 0 0 8px #39ff14;
+}
+/*list styles*/
+ul.skills-list {
+  list-style-type: none;
+  text-align: center;
+  width: 300px;
+  margin: 20px auto;
+  padding-bottom: 20px;
+  font-size: 24px;
+  color: #fafafa;
+  text-shadow: 0 0 8px #00afec;
+  cursor: pointer;
+}
+
+li:hover {
+  color: #00afec;
+  text-shadow: 0 0 6px #00afec;
+  transition: color 0.3s ease, transform 0.3s ease;
+  transform: scale(1.2);
+}
