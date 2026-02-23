@@ -61,7 +61,8 @@ p {
 .project-grid .meet-landing,
 .project-grid .newsletter,
 .project-grid .recipe,
-.project-grid .portfolio-webpage {
+.project-grid .portfolio-webpage,
+.project-grid .todo-list {
   display: flex;
   align-items: flex-start;
   gap: 50px;
@@ -100,7 +101,8 @@ p {
   .project-grid .meet-landing,
   .project-grid .newsletter,
   .project-grid .recipe,
-  .project-grid .portfolio-webpage {
+  .project-grid .portfolio-webpage,
+  .project-grid .todo-list {
     flex-direction: column;
     align-items: center;
     gap: 30px;
@@ -137,7 +139,8 @@ p {
   .project-grid .meet-landing,
   .project-grid .newsletter,
   .project-grid .recipe,
-  .project-grid .portfolio-webpage {
+  .project-grid .portfolio-webpage,
+  .project-grid .todo-list {
     flex-direction: column;
     align-items: center;
     gap: 25px;
